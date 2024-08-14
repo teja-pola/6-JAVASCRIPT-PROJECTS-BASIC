@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(197, 198, 199);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 7px;
+}
+button{
+    background-color: rgb(24, 189, 24);
+    color: #ffffff;
+    border: none;
+    padding: 7px 20px 7px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#password{
+    height: 22px;
+    width: 60%;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    background-color: #f0f0f0;
+    box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.6);
+}
+
+.form-group label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+#length{
+    width: 40px;
+    margin-bottom: 10px;
+}
+
