@@ -4,7 +4,7 @@ const numbers = "0123456789";
 const symbols = "!@#$%^&*()_+-={}[]\\|;':\",./<>?";
 
 const lengthEl = document.getElementById("length");
-const lowercaseEl = document.getElementById("Lowercase");
+const lowercaseEl = document.getElementById("Lowercse");
 const uppercaseEl = document.getElementById("Uppercase");
 const numbersEl = document.getElementById("Numbers");
 const symbolsEl = document.getElementById("Symbols");
