@@ -18,6 +18,10 @@ body{
     align-items: center;
 }
 
+p{
+    margin-top: -10PX;
+    font-size: small;
+}
 h2{
     color: rgb(0, 102, 255);
     text-align: center;
@@ -31,12 +35,12 @@ button{
    border-radius: 5px;
 }
 
-#text{
-    height: 250px;;
+#dob{
+    height: 30px;
     width: 550px;
     font-size: 16px;
     border: none;
-    padding: 15PX 0px 0px 10px ;
+    padding: 10PX 10px 10px 10px ;
     border-radius: 4px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     
@@ -47,4 +51,5 @@ button{
 #result{
     text-align: center;
     font-weight: 600;
+    padding: 20PX;
 }
