@@ -8,7 +8,7 @@ addbtn.addEventListener('click',()=>{
 
     if(newtodotext!==""){
         const newtodoitem = document.createElement("li");
-        tasktodo.innerText = newtodotext;
+        newtodoitem.innerText = newtodotext;
         const deletetodobtn = document.createElement("button");
         deletetodobtn.innerText = "x";
         deletetodobtn.classList.add("delete-todo-btn");
